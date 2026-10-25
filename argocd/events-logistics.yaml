@@ -1,0 +1,23 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: events-logistics
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/AhlemMastouri/Events-Platform.git
+    targetRevision: main
+    path: chart
+    helm:
+      valueFiles:
+        - ../gitops/envs/logistics/values.yaml
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: events-logistics
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true

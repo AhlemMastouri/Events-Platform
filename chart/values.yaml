@@ -1,0 +1,8 @@
+image:
+  repository: events-app
+  tag: latest
+  pullPolicy: IfNotPresent
+nodePort: 30080
+mysql:
+  rootPassword: root-local-only
+  database: eventsdb
