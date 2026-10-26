@@ -1,3 +1,6 @@
+# Généré par Jenkins - build #41 - commit dacdcde - ne pas modifier à la main
+feature: logistics
+owner: ahlem-mastouri
 image:
-  repository: events-app
-  tag: logistics-25-1aea0a6
+  repository: 155368763737.dkr.ecr.us-east-1.amazonaws.com/events-app
+  tag: logistics-41-dacdcde
