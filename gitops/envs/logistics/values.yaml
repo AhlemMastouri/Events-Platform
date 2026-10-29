@@ -1,8 +1,8 @@
-# Genere par Jenkins - build #95 - commit f05c273 - ne pas modifier a la main
+# Genere par Jenkins - build #97 - commit e439e2a - ne pas modifier a la main
 feature: logistics
 owner: ahlem-mastouri
 image:
   repository: 155368763737.dkr.ecr.us-east-1.amazonaws.com/events-app
-  tag: logistics-95-f05c273
+  tag: logistics-97-e439e2a
 ingress:
   host: logistics.apps.local
