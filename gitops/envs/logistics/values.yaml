@@ -1,8 +1,8 @@
-# Genere par Jenkins - build #119 - commit 632314d - ne pas modifier a la main
+# Genere par Jenkins - build #127 - commit 36eb9ac - ne pas modifier a la main
 feature: logistics
 owner: ahlem-mastouri
 image:
   repository: 155368763737.dkr.ecr.us-east-1.amazonaws.com/events-app
-  tag: logistics-119-632314d
+  tag: logistics-127-36eb9ac
 ingress:
   host: logistics.apps.local
